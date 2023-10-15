@@ -1,0 +1,19 @@
+.custom-shadow{
+    box-shadow: rgba(246, 241, 241, 0.974) 0px 5px 15px;
+}
+.custom-message{
+    position: relative;
+    background-color: #010312;
+    z-index: 999999;
+}
+.custom-message::after{
+    content: "";
+    width: 20px;height: 20px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    margin-bottom: -10px;
+    rotate: 15deg;
+    z-index: -9;
+}
